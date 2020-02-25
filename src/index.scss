@@ -1,0 +1,11 @@
+$background: #c2aaba;
+
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body {
+  margin: 0;
+  font-family: 'Inconsolata', sans-serif;
+  background: $background;
+  color: white;
+}
+

@@ -1,0 +1,12 @@
+.operations{
+  .operation{
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  .selected{
+    text-decoration: underline;
+    background: black;
+  }
+}
