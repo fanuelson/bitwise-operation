@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy-surge": "npm run build",
+    "deploy-surge": " surge ./build bitwise-operation-fanuelson.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
